@@ -1,0 +1,214 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - heading "Conference Planner" [level=1] [ref=e7]
+      - navigation [ref=e8]:
+        - button "Venue" [ref=e9] [cursor=pointer]
+        - button "Add-ons" [ref=e10] [cursor=pointer]
+        - button "Meals" [ref=e11] [cursor=pointer]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: 8 items
+          - generic [ref=e15]: $15,260
+        - generic [ref=e16]:
+          - button "Save" [ref=e17] [cursor=pointer]
+          - button "Reset" [ref=e18] [cursor=pointer]
+          - button "Show Details" [ref=e19] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - heading "Venue Rooms" [level=2] [ref=e24]
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - heading "Auditorium Hall" [level=3] [ref=e31]
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: "Capacity: 200 people"
+                - paragraph [ref=e34]: $5,500
+              - generic [ref=e35]:
+                - generic [ref=e36]:
+                  - button "Decrease Auditorium Hall" [ref=e37] [cursor=pointer]:
+                    - img [ref=e38]
+                  - generic [ref=e39]: "2"
+                  - button "Increase Auditorium Hall" [ref=e40] [cursor=pointer]:
+                    - img [ref=e41]
+                - generic [ref=e43]: "Total: $11,000"
+            - generic [ref=e45]:
+              - img [ref=e47]
+              - heading "Conference Room" [level=3] [ref=e49]
+              - generic [ref=e50]:
+                - paragraph [ref=e51]: "Capacity: 15 people"
+                - paragraph [ref=e52]: $3,500
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - button "Decrease Conference Room" [ref=e55] [cursor=pointer]:
+                    - img [ref=e56]
+                  - generic [ref=e57]: "1"
+                  - button "Increase Conference Room" [ref=e58] [cursor=pointer]:
+                    - img [ref=e59]
+                - generic [ref=e61]: "Total: $3,500"
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - heading "Presentation Room" [level=3] [ref=e67]
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: "Capacity: 50 people"
+                - paragraph [ref=e70]: $700
+              - generic [ref=e72]:
+                - button "Decrease Presentation Room" [disabled] [ref=e73]:
+                  - img [ref=e74]
+                - generic [ref=e75]: "0"
+                - button "Increase Presentation Room" [ref=e76] [cursor=pointer]:
+                  - img [ref=e77]
+            - generic [ref=e80]:
+              - img [ref=e82]
+              - heading "Large Meeting Room" [level=3] [ref=e84]
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: "Capacity: 10 people"
+                - paragraph [ref=e87]: $900
+              - generic [ref=e89]:
+                - button "Decrease Large Meeting Room" [disabled] [ref=e90]:
+                  - img [ref=e91]
+                - generic [ref=e92]: "0"
+                - button "Increase Large Meeting Room" [ref=e93] [cursor=pointer]:
+                  - img [ref=e94]
+            - generic [ref=e97]:
+              - img [ref=e99]
+              - heading "Small Meeting Room" [level=3] [ref=e101]
+              - generic [ref=e102]:
+                - paragraph [ref=e103]: "Capacity: 5 people"
+                - paragraph [ref=e104]: $1,100
+              - generic [ref=e106]:
+                - button "Decrease Small Meeting Room" [disabled] [ref=e107]:
+                  - img [ref=e108]
+                - generic [ref=e109]: "0"
+                - button "Increase Small Meeting Room" [ref=e110] [cursor=pointer]:
+                  - img [ref=e111]
+        - generic [ref=e113]:
+          - heading "Add-ons" [level=2] [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e117]:
+              - img [ref=e119]
+              - heading "Speakers" [level=3] [ref=e121]
+              - paragraph [ref=e122]: $35
+              - generic [ref=e124]:
+                - button "Decrease Speakers" [disabled] [ref=e125]:
+                  - img [ref=e126]
+                - generic [ref=e127]: "0"
+                - button "Increase Speakers" [ref=e128] [cursor=pointer]:
+                  - img [ref=e129]
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - heading "Microphones" [level=3] [ref=e136]
+              - paragraph [ref=e137]: $45
+              - generic [ref=e139]:
+                - button "Decrease Microphones" [disabled] [ref=e140]:
+                  - img [ref=e141]
+                - generic [ref=e142]: "0"
+                - button "Increase Microphones" [ref=e143] [cursor=pointer]:
+                  - img [ref=e144]
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - heading "Whiteboards" [level=3] [ref=e151]
+              - paragraph [ref=e152]: $80
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - button "Decrease Whiteboards" [ref=e155] [cursor=pointer]:
+                    - img [ref=e156]
+                  - generic [ref=e157]: "2"
+                  - button "Increase Whiteboards" [active] [ref=e158] [cursor=pointer]:
+                    - img [ref=e159]
+                - generic [ref=e161]: "Total: $160"
+            - generic [ref=e163]:
+              - img [ref=e165]
+              - heading "Projectors" [level=3] [ref=e167]
+              - paragraph [ref=e168]: $200
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - button "Decrease Projectors" [ref=e171] [cursor=pointer]:
+                    - img [ref=e172]
+                  - generic [ref=e173]: "3"
+                  - button "Increase Projectors" [ref=e174] [cursor=pointer]:
+                    - img [ref=e175]
+                - generic [ref=e177]: "Total: $600"
+            - generic [ref=e179]:
+              - img [ref=e181]
+              - heading "Signage" [level=3] [ref=e183]
+              - paragraph [ref=e184]: $80
+              - generic [ref=e186]:
+                - button "Decrease Signage" [disabled] [ref=e187]:
+                  - img [ref=e188]
+                - generic [ref=e189]: "0"
+                - button "Increase Signage" [ref=e190] [cursor=pointer]:
+                  - img [ref=e191]
+        - generic [ref=e193]:
+          - heading "Meals & Catering" [level=2] [ref=e194]
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: Number of People
+              - spinbutton [ref=e200]: "0"
+            - paragraph [ref=e201]: Enter the number of attendees for meal planning (max 500)
+          - generic [ref=e202]:
+            - generic [ref=e204]:
+              - img [ref=e206]
+              - heading "Breakfast" [level=3] [ref=e208]
+              - paragraph [ref=e209]: $50 per person
+              - generic [ref=e210] [cursor=pointer]:
+                - checkbox "Select this meal" [ref=e211]
+                - generic [ref=e212]: Select this meal
+            - generic [ref=e214]:
+              - img [ref=e216]
+              - heading "Lunch" [level=3] [ref=e218]
+              - paragraph [ref=e219]: $65 per person
+              - generic [ref=e220] [cursor=pointer]:
+                - checkbox "Select this meal" [ref=e221]
+                - generic [ref=e222]: Select this meal
+            - generic [ref=e224]:
+              - img [ref=e226]
+              - heading "High Tea" [level=3] [ref=e228]
+              - paragraph [ref=e229]: $25 per person
+              - generic [ref=e230] [cursor=pointer]:
+                - checkbox "Select this meal" [ref=e231]
+                - generic [ref=e232]: Select this meal
+            - generic [ref=e234]:
+              - img [ref=e236]
+              - heading "Dinner" [level=3] [ref=e238]
+              - paragraph [ref=e239]: $70 per person
+              - generic [ref=e240] [cursor=pointer]:
+                - checkbox "Select this meal" [ref=e241]
+                - generic [ref=e242]: Select this meal
+        - generic [ref=e244]:
+          - heading "Promo Code" [level=3] [ref=e245]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - textbox "Enter promo code" [ref=e249]
+              - button "Apply" [disabled]
+            - generic [ref=e250]:
+              - paragraph [ref=e251]: "Available codes:"
+              - list [ref=e252]:
+                - listitem [ref=e253]: EARLYBIRD10 - 10% off venue
+                - listitem [ref=e254]: AVBUNDLE5 - 5% off add-ons ($500+ subtotal)
+                - listitem [ref=e255]: CATER15 - 15% off meals (50+ people)
+      - complementary [ref=e256]:
+        - generic [ref=e258]:
+          - heading "Summary" [level=3] [ref=e259]
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - generic [ref=e262]: Items Selected
+              - generic [ref=e263]: "8"
+            - generic [ref=e264]:
+              - generic [ref=e265]: Venue
+              - generic [ref=e266]: $14,500
+            - generic [ref=e267]:
+              - generic [ref=e268]: Add-ons
+              - generic [ref=e269]: $760
+            - generic [ref=e271]:
+              - generic [ref=e272]: Subtotal
+              - generic [ref=e273]: $15,260
+            - generic [ref=e275]:
+              - generic [ref=e276]: Total
+              - generic [ref=e277]: $15,260
+```
